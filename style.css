@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  color: rgb(36, 36, 36);
+}
+
+h2 {
+  color:rgb(0, 119, 119);
+  font-weight: bold;
+}
+
+p {
+  margin: 10px 30px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+}
+
+a {
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background-color: darkcyan;
+  color: aliceblue;
+  margin: 30px;
+  padding: 10px 30px;
+}
+
+ul {
+  display: block;
+}
+
+.banner {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 30%, rgba(46,46,46,0.5) 80%), url("images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	text-align: center;
+	padding-bottom: 40px;
+	color: white;
+}
+
+.container {
+  position: relative;
+  top: -280px;
+  margin: auto 300px;
+  text-align: center;
+  min-width: 500px;
+}
+
+.cards {
+  background-color: white;
+  margin: 20px;
+  padding: 25px;
+  border: 1px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 60px;
+  color: darkcyan;
+}
