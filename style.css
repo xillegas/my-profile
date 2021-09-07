@@ -29,6 +29,7 @@ img {
 a {
   border-radius: 5px;
   text-decoration: none;
+  color: darkcyan;
 }
 
 .btn-blue {
